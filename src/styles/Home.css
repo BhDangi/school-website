@@ -1,0 +1,31 @@
+/* src/styles/Home.css */
+header {
+    text-align: center;
+    padding: 20px;
+  }
+  
+  header img {
+    max-width: 150px;
+  }
+  
+  section {
+    margin: 20px auto;
+    width: 80%;
+  }
+  
+  footer {
+    background-color: #f8f9fa;
+    padding: 10px;
+    text-align: center;
+  }
+  
+  footer nav ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  footer nav ul li {
+    display: inline;
+    margin: 0 10px;
+  }
+  

@@ -1,0 +1,23 @@
+/* src/styles/Academics.css */
+header {
+    text-align: center;
+    padding: 20px;
+  }
+  
+  section {
+    margin: 20px auto;
+    width: 80%;
+  }
+  
+  h1, h2, h3, h4 {
+    color: #333;
+  }
+  
+  div > div {
+    margin-bottom: 20px;
+  }
+  
+  p {
+    margin: 10px 0;
+  }
+  

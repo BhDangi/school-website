@@ -1,0 +1,41 @@
+/* src/pages/Gallery.css */
+header {
+    text-align: center;
+    padding: 20px;
+  }
+  
+  section {
+    margin: 20px auto;
+    width: 80%;
+  }
+  
+  h1 {
+    color: #333;
+  }
+  
+  h2 {
+    color: #007bff;
+  }
+  
+  .gallery-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  
+  .gallery-item {
+    flex: 1 1 calc(33.333% - 20px);
+    box-sizing: border-box;
+  }
+  
+  .gallery-item img,
+  .gallery-item video {
+    width: 100%;
+    height: auto;
+  }
+  
+  .gallery-item p {
+    text-align: center;
+    margin-top: 10px;
+  }
+  
