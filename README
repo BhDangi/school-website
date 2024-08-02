@@ -1,0 +1,43 @@
+Install Dependencies
+
+Ensure you have Node.js and npm installed. Run the following command to install the project's dependencies:
+npm install
+
+
+Run the Project
+
+Start the development server:
+npm start
+
+This will start the server and open the application in your default browser. The default URL is http://localhost:3000.
+
+Folder Structure
+The project is organized as follows:
+
+src/
+ assets/ - Contains static assets like images.
+ components/ - Reusable components for different parts of the application.
+ pages/ - Contains the main pages of the application (e.g., Home, AboutUs, ContactUs).
+ styles/ - CSS files for styling the application.
+App.js - Main application file that sets up routing.
+index.js - Entry point of the application.
+
+Features
+ Home Page: Displays the school logo, introduction, and carousel with highlights.
+ About Us: Provides detailed information about the school's history, vision, mission, and values.
+ Academics: Lists curriculum details, subjects, teaching methodologies, and educational resources.
+ Admissions: Contains admission process, criteria, and important dates.
+ Faculty: Lists profiles and qualifications of faculty members.
+ Students: Information about student life, achievements, and student council.
+ Gallery: Photo and video gallery with filtering options.
+ Contact Us: Displays contact information, a contact form, and a Google Maps integration for location.
+
+Contributing
+If you would like to contribute to this project, please follow these steps:
+
+Fork the repository.
+Create a new branch (git checkout -b feature-branch).
+Make your changes.
+Commit your changes (git commit -am 'Add new feature').
+Push to the branch (git push origin feature-branch).
+Create a pull request.
